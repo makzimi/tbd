@@ -1,4 +1,4 @@
-# tbd — Trunk-Based Development for Coding Agents
+# Trunk-Based Development for Coding Agents
 
 Trunk-based development in one breath: everyone integrates small changes into a single trunk continuously, and the trunk is releasable at all times. Big features don't get big branches — they get decomposed into a sequence of small, independently shippable changes, with incomplete work hidden behind feature toggles or branch-by-abstraction seams instead of behind a branch. Decades of industry evidence (DORA research, Fowler, Hammant) point the same way: teams that integrate small and often ship faster with fewer defects.
 
