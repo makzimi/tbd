@@ -1,12 +1,12 @@
 # Trunk-Based Development for Coding Agents
 
-Trunk-based development in one breath: everyone integrates small changes into a single trunk continuously, and the trunk is releasable at all times. Big features don't get big branches — they get decomposed into a sequence of small, independently shippable changes, with incomplete work hidden behind feature toggles or branch-by-abstraction seams instead of behind a branch. Decades of industry evidence (DORA research, Fowler, Hammant) point the same way: teams that integrate small and often ship faster with fewer defects.
+TBD in one line: everyone merges small changes into one trunk, constantly, and trunk is always shippable. Big feature? Don't grow a big branch — slice the work into small PRs and hide the unfinished bits behind a feature toggle or an abstraction seam. Not just vibes, either: DORA, Fowler, and Hammant all agree — small frequent merges = ship faster, break less.
 
-Coding agents are naturally bad at this. Given an epic, an agent happily produces one giant branch, one 4,000-line pull request, and a plan whose steps only make sense as a whole. The knowledge of *how to slice work into review-sized, trunk-safe PRs* has to be re-explained in every session — so this plugin packages it once, as a set of skills the agent applies automatically.
+Thing is, coding agents are hopeless at this. Give one an epic and boom — monster branch, 4,000-line PR, good luck reviewing that. You can teach an agent to slice properly, but you'd be re-explaining it every session. This plugin does it once, as skills the agent just picks up.
 
-The variant this plugin enforces is **short-lived feature branches**: every change reaches trunk through a branch that lives a day or two at most and ends in exactly one review-sized pull request. It does not preach committing straight to trunk, and it does not touch your release process.
+The flavor here: **short-lived branches**. A branch lives a day or two, tops, and ends in one review-sized PR. No "commit straight to trunk" preaching, and your release process is none of our business.
 
-One thing it deliberately does **not** do: tell the agent how to spec, plan, test, or implement anything. It only owns *where the PR boundaries are*. Everything inside a slice is up to you and whatever workflow you already use.
+Also none of our business: how you spec, plan, test, or code. The plugin only draws the PR boundaries — inside each slice, do whatever works for you. It plays nice with any process plugin — for example, [Superpowers](https://github.com/obra/superpowers) for the brainstorm → plan → TDD flow — or with no process plugin at all.
 
 ## Install & Usage
 
