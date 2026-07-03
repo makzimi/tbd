@@ -10,14 +10,18 @@ One thing it deliberately does **not** do: tell the agent how to spec, plan, tes
 
 ## Install & Usage
 
-Install as a Claude Code plugin:
+Install as a Claude Code plugin — this repo is its own marketplace:
 
 ```bash
-# from a marketplace that carries it
-/plugin install tbd
+/plugin marketplace add makzimi/tbd
+/plugin install tbd@tbd
+```
 
-# or manually: clone this repo and add it as a local plugin
-/plugin marketplace add <path-or-repo>
+Or from a local clone:
+
+```bash
+/plugin marketplace add /path/to/tbd
+/plugin install tbd@tbd
 ```
 
 Then, at the start of an epic or any feature that smells bigger than one PR:

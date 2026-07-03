@@ -1,0 +1,18 @@
+{
+  "name": "tbd",
+  "description": "Marketplace for the tbd plugin — trunk-based development discipline for coding agents",
+  "owner": {
+    "name": "Maxim Kachinkin"
+  },
+  "plugins": [
+    {
+      "name": "tbd",
+      "description": "Trunk-based development discipline for coding agents: decompose epics into small, independently shippable, review-sized pull requests using feature toggles and branch by abstraction to keep trunk releasable at all times",
+      "version": "0.1.0",
+      "source": "./",
+      "author": {
+        "name": "Maxim Kachinkin"
+      }
+    }
+  ]
+}
