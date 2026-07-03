@@ -24,6 +24,18 @@ Or from a local clone:
 /plugin install tbd@tbd
 ```
 
+For **OpenCode**, add the plugin to your `opencode.json` and restart (see
+[`.opencode/INSTALL.md`](.opencode/INSTALL.md) for details):
+
+```json
+{
+  "plugin": ["tbd@git+https://github.com/makzimi/tbd.git"]
+}
+```
+
+OpenCode has no slash commands, so activate by asking — "load the using-tbd
+skill" (or just ask for trunk-based development) at the start of an epic.
+
 Then, at the start of an epic or any feature that smells bigger than one PR:
 
 ```

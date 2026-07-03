@@ -1,0 +1,17 @@
+{
+  "name": "tbd",
+  "version": "0.1.0",
+  "description": "Trunk-based development discipline for coding agents: decompose epics into small, independently shippable, review-sized pull requests",
+  "type": "module",
+  "main": ".opencode/plugins/tbd.js",
+  "license": "MIT",
+  "keywords": [
+    "trunk-based-development",
+    "pull-requests",
+    "decomposition",
+    "feature-toggles",
+    "branch-by-abstraction",
+    "skills",
+    "workflow"
+  ]
+}
