@@ -1,0 +1,18 @@
+{
+  "name": "tbd",
+  "description": "Trunk-based development discipline for coding agents: decompose epics into small, independently shippable, review-sized pull requests using feature toggles and branch by abstraction to keep trunk releasable at all times",
+  "version": "0.1.0",
+  "author": {
+    "name": "Maxim Kachinkin"
+  },
+  "license": "MIT",
+  "keywords": [
+    "trunk-based-development",
+    "pull-requests",
+    "decomposition",
+    "feature-toggles",
+    "branch-by-abstraction",
+    "continuous-integration",
+    "workflows"
+  ]
+}
