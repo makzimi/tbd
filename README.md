@@ -1,12 +1,24 @@
 # Trunk-Based Development for Coding Agents
 
-TBD in one line: everyone merges small changes into one trunk, constantly, and trunk is always shippable. Big feature? Don't grow a big branch — slice the work into small PRs and hide the unfinished bits behind a feature toggle or an abstraction seam. Not just vibes, either: DORA, Fowler, and Hammant all agree — small frequent merges = ship faster, break less.
+**Big features, tiny pull requests — this plugin teaches your agent to ship an epic as a stream of small, safe PRs instead of one monster branch.**
 
-Thing is, coding agents are hopeless at this. Give one an epic and boom — monster branch, 4,000-line PR, good luck reviewing that. You can teach an agent to slice properly, but you'd be re-explaining it every session. This plugin does it once, as skills the agent just picks up.
+Using it is one line:
 
-The flavor here: **short-lived branches**. A branch lives a day or two, tops, and ends in one review-sized PR. No "commit straight to trunk" preaching, and your release process is none of our business.
+```
+/using-tbd do the gift-cards task from our Jira, SHOP-1234
+```
 
-Also none of our business: how you spec, plan, test, or code. The plugin only draws the PR boundaries — inside each slice, do whatever works for you. It plays nice with any process plugin — for example, [Superpowers](https://github.com/obra/superpowers) for the brainstorm → plan → TDD flow — or with no process plugin at all.
+Using something else too, like Superpowers? Combine — easy:
+
+```
+/using-tbd /using-superpowers do the gift-cards task from our Jira, SHOP-1234
+```
+
+**New to trunk-based development?** The idea ([trunkbaseddevelopment.com](https://trunkbaseddevelopment.com/)): everyone merges small changes into one shared branch — the trunk — all the time, and the trunk always stays shippable. Big feature? You don't grow a big branch for weeks. You slice the work into small pieces, ship them one by one, and hide the unfinished parts behind a feature toggle or an abstraction seam. DORA, Fowler, and Hammant all land on the same conclusion: small frequent merges = ship faster, break less.
+
+Coding agents are hopeless at this out of the box. Give one an epic and boom — monster branch, 4,000-line PR, good luck reviewing that. You *can* teach an agent to slice properly, but you'd re-explain it every session. This plugin packages it once, as skills the agent just picks up.
+
+The flavor here: **short-lived branches** — a branch lives a day or two, tops, and ends in one review-sized PR. Everything else is none of our business: how you spec, plan, test, code, or release. The plugin only draws the PR boundaries; inside each slice, use whatever workflow you like — [Superpowers](https://github.com/obra/superpowers), anything else, or nothing at all.
 
 ## Install & Usage
 
