@@ -11,7 +11,7 @@ Using it is one line:
 Using something else too, like Superpowers? Combine — easy:
 
 ```
-/using-tbd /using-superpowers do the gift-cards task from our Jira, SHOP-1234
+/using-tbd and /using-superpowers do the gift-cards task from our Jira, SHOP-1234
 ```
 
 **New to trunk-based development?** The idea ([trunkbaseddevelopment.com](https://trunkbaseddevelopment.com/)): everyone merges small changes into one shared branch — the trunk — all the time, and the trunk always stays shippable. Big feature? You don't grow a big branch for weeks. You slice the work into small pieces, ship them one by one, and hide the unfinished parts behind a feature toggle or an abstraction seam. DORA, Fowler, and Hammant all land on the same conclusion: small frequent merges = ship faster, break less.
